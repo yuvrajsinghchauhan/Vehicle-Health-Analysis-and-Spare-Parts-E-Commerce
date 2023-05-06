@@ -1,4 +1,4 @@
-"""This create visulaise data page"""
+"""This create visualise data page"""
 
 # Import necessary module
 import streamlit as st
@@ -10,7 +10,7 @@ def app(df):
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
     # Give title
-    st.title("Visulise Data")
+    st.title("Visualise Data")
 
     # Creat a section for scatter plot
     st.header("Scatterplot")
@@ -25,7 +25,7 @@ def app(df):
         st.pyplot(fig)
     
     # Create a section for Visualisation Selector
-    st.header("Visulisation Selector")
+    st.header("Visualisation Selector")
     
     # Create a multiselect option to create plots or charts.
     plot_type = st.multiselect("Select charts or plots:", ('Histogram', 'Box Plot', 'Correlation Heatmap'))
