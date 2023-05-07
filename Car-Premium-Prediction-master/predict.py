@@ -28,7 +28,7 @@ def app(df):
     citympg = st.slider("City Milage", int(df["citympg"].min()), int(df["citympg"].max()))
     highwaympg = st.slider("Highway Milage", int(df["highwaympg"].min()), int(df["highwaympg"].max()))
     # Creat two radio selection for 0 1 input.
-    drivewheel_fwd = st.radio("Is if forward drive wheel car?", ("Yes", "No"))
+    drivewheel_fwd = st.radio("Is it forward drive wheel car?", ("Yes", "No"))
     car_company_buick = st.radio("Is the car manufactured by Buick?", ("Yes", "No"))
 
     # Modify radio data.
