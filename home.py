@@ -4,7 +4,7 @@
 import streamlit as st
 
 def app():
-    st.title("Car Pridiction app")
+    st.title("Car Prediction app")
     st.image("./welcome.jpg")
     st.text(
         """
